@@ -1,0 +1,32 @@
+al hacer una fac 
+
+si es al contado el saldo 
+
+la cuenta por cobrar es el saldo al cobrar el 
+
+
+
+se esta buscando un inset en f_facturas M
+
+en caso 
+
+f_factura_m se hguarda la factura
+
+
+entonces, básicamente hay que buscar donde se hacer el insert en f_facturasM cuando se tiene un vale, también hay que fijarse que el vale no quede en negativo o si el vale queda con saldo ingresar el saldo correspondiente tras el cobro
+
+al momento de generar una nuevo maestro de Salida el numero de factura (SAR) no se guarda o se anexa de alguna forma a esa salida: donde debería registrarse en f_facturas_m
+BUSQUEDA 
+452
+
+GNERAR 
+461
+200   Perform SQL {insert into "DBA".F_Pda_Detalle insertnames(F_Pda_Detalle)}
+499 se hace el inser indiferente de los montos 
+
+se han detectatdo vales con el mismo código con diferente tipo que afecta a al registro de vales en las salidas
+--------------> se guarda el sub total y el isv
+hay que buscar manera de ingresar los montos de la factura y el isv de la factura 
+Calculate F_Variables.MONTO5 as F_Variables.MONTO2-F_Variables.MONTO3+F_Variables.MONTO4
+F_Variables.STRING7
+F_Variables.MONTO2

@@ -1,0 +1,11 @@
+revisar orden de compra proceso de actualizar inventario
+
+búsqueda item por entrada (posible variable sucia)
+detalle de orden de compra levantar ventana de inventario
+
+
+
+
+redmine #10312
+paramtros e facturación 
+al cambiaor el rango en paramtros  actualizar al numero anterior del primero 99
