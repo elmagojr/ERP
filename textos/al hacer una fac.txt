@@ -24,6 +24,8 @@ GNERAR
 200   Perform SQL {insert into "DBA".F_Pda_Detalle insertnames(F_Pda_Detalle)}
 499 se hace el inser indiferente de los montos 
 
+SELECT pa_valor FROM DBA.Parametros_X_Empresa WHERE Parametros_X_Empresa.PA_ABREV_PARAMETRO= 'MANEJA_COMISION'
+
 se han detectatdo vales con el mismo código con diferente tipo que afecta a al registro de vales en las salidas
 --------------> se guarda el sub total y el isv
 hay que buscar manera de ingresar los montos de la factura y el isv de la factura 
