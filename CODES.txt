@@ -1,0 +1,27 @@
+Open window W_Sele_Cliente/CENTER
+SNA set current field {F_Clientes.CLI_COD}
+Calculate F_Variables.BOOL1 as 1
+Calculate F_Bod_Mae_S.BMS_COD_CLI as F_Clientes.CLI_COD
+Disable fields 33 to 33
+Redraw Windows
+jst(F_Cuentas_Fin.CTF_CODIGO,30,' ',3,F_Cuentas_Fin.CTF_DESCRIP,75)
+
+Creación tipos vale
+452
+.Set current list CUENTAS_CORP
+Load from list
+If not(F_Cuentas_Fin.CTF_POSTEABLE)
+Open window W_Est_Mensajes_View/CENTER (329)
+Calculate #L as 0
+Redraw windows
+Else
+Calculate Tipos_Vales.TVA_CTA_CONTABLE as F_Cuentas_Fin.CTF_CODIGO
+End If
+
+INSERT INTO "DBA"."PARAMETROS_X_EMPRESA" ("PA_COMPANIA","PA_FILIAL","PA_ABREV_PARAMETRO","PA_DESCRIPCION","PA_VALOR","PA_AGREGO","PA_MODIFICO","PA_FECHA_AGR","PA_FECHA_MOD","PA_MODULO") VALUES(1,1,'CJ_SOLICITA_CLAVE_TRANS_CAJEROS','QUITA AUTORIZACION TRANSACCIONES DE CAJERO RECIBO/ENTREGA','n','supervisor','supervisor','26-05-2025','23-05-2025','DB')
+
+
+
+
+
+
