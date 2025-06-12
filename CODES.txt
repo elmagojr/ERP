@@ -22,6 +22,24 @@ INSERT INTO "DBA"."PARAMETROS_X_EMPRESA" ("PA_COMPANIA","PA_FILIAL","PA_ABREV_PA
 
 
 
+F_Bod_Mae_S.BMS_NUM_FACT,F_Clientes.CLI_COD,F_Clientes.CLI_NOM,F_Pagos_F.PAF_MTO_PAGO
+
+
+UNLOAD
+SELECT table_name
+FROM sys.systable
+WHERE table_type = 'BASE'
+ORDER BY table_name
+TO 'C:\\temp\\tablas_COMEGCEN.txt'
+FORMAT TEXT;
+
+UNLOAD
+SELECT proc_name
+FROM sys.sysprocedure
+WHERE creator = user_id('DBA')
+ORDER BY proc_name
+TO 'C:\\temp\\procedimientos_COMEGCEN.txt'
+FORMAT TEXT;
 
 
 
