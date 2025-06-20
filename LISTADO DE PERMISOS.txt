@@ -1,0 +1,21 @@
+M_Contabilidad Cooperativistas y Cuentas
+M_Inventario
+M_Cuentas Partidas
+M_Rep_Conta Libro Mayor, Libro Diario
+M_Bancos Cheques
+M_Caja &Apertura de cajero
+
+M_REP_CONTA, M_sTDOS_ANTER
+
+W_Nivel_Std_Fin2, líneas 2, 23 y 38 ojo se debe corregir la selección de fecha y asignancion a la variable var1 
+                
+    OBSERVACIONES
+PARAMETRIZAR LOS PARAMTROS DE FACTURACION            
+                
+
+SECUENCIALES	
+W_BOD_DETALLE_S 38, 450,203,461
+
+MODIFICAR 440
+	
+
