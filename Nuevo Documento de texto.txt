@@ -1,0 +1,1 @@
+SELECT bds_cod_prod, bds_costo  FROM DBA.F_BOD_DET_S where bds_cod_prod = 74210176 group by  bds_cod_prod, bds_costo
