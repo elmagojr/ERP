@@ -1,0 +1,25 @@
+Facturas cortada ERP #13674 ya esta
+Se ajusto el formato del recibo en A4 (formato de facturas), el detalle es muy extenso y tenemos el papel ni la impresora para hacer pruebas con detalles tan largos, si la coop insiste en que antes si estaba dando a lo mejor es porque hicieron un cambio de impresora o han modificado alguna configuración que no puede ser controlada por Omnis
+
+Error en factura módulo ERP 13764 ya esta 
+
+Se ajustó el detalle de la factura en ello, facturas con pago total por vales Mostraba el valor de isv por como saldo en crédito, se valido que no fuera asi (monto de factura contra vales)
+Ahora crea un pago en cuentas por cobrar con el valor del vale para construir un saldo a nivel financiero en la factura	
+
+ #13473  Anulacion de orden de compra defectuosa
+
+para FACTURAS anuladas los valores pasan a cero mas una descripción de FACTURA ANULADA donde previamente no se evaluaba los nuevos cambios de estado del proceso de ordenes de compra cabe recalcar que facturas previas a estos cambios no se verán reflejadas de esta manera
+
+
+Buen dia estimada,
+
+Adjunto librería ERP a su correo con desarrollos realizados según los siguientes redmine:
+
+#13473 Anulación de orden de compra defectuosa
+#13674 Facturas cortada ERP
+#13764 Error en factura módulo ERP 
+#13448 Mejora en presentación de datos ERP
+
+Adjunto documento con observaciones y cambios realizados,
+
+

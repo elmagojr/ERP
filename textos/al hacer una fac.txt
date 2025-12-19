@@ -32,3 +32,10 @@ hay que buscar manera de ingresar los montos de la factura y el isv de la factur
 Calculate F_Variables.MONTO5 as F_Variables.MONTO2-F_Variables.MONTO3+F_Variables.MONTO4
 F_Variables.STRING7
 F_Variables.MONTO2
+
+
+
+
+
+
+
