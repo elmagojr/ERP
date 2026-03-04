@@ -32,7 +32,7 @@ begin
        set TOTAL_VALES =0;
     end if;
 
-  update DBA.F_FACTURAS_M set FAM_MTO_OTROS = saldo2,FAM_MTO_SALDO = FAM_MTO_FACT+FAM_MTO_ISV+saldo2-saldo-TOTAL_VALES where FAM_NUM_FACT = new_name.PAF_NUM_FACT and fam_compania = compania;
+  update DBA.F_FACTURAS_M set FAM_MTO_OTROS = saldo2,FAM_MTO_SALDO = FAM_MTO_FACT+FAM_MTO_ISV+saldo2-saldo where FAM_NUM_FACT = new_name.PAF_NUM_FACT and fam_compania = compania;
 
   select sum(FAM_MTO_SALDO) into total from DBA.F_FACTURAS_M where FAM_COD_CLI = cliente and fam_compania = compania;
   if total is null then
